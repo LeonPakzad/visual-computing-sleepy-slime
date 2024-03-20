@@ -6,6 +6,7 @@ You play a little slime, which needs to dodge fire-balls thrown by a wizard.
 Try to hide behind objects, beware that they wont hold out much though
 <hr>
 - use "W","A","S","D" to move, "Enter" to activate a selected menu item.
+<hr>
 - press 1 or 2 to select a level (more might be added)
 <hr>
 <p>

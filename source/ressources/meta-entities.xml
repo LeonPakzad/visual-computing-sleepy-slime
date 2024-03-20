@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta-entities>
+
+    <meta-entity name="player">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="64.0;64.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="player-left.png" />
+            <texture value="player-right.png" />
+            <texture value="player-up.png" />
+            <texture value="player-down.png" />
+        </graphics>
+    </meta-entity>
+
+    <meta-entity name="wizard-red">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="128.0;128.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wizard-red-up.png" />
+            <texture value="wizard-red-down.png" />
+            <texture value="wizard-red-left.png" />
+            <texture value="wizard-red-right.png" />
+        </graphics>
+    </meta-entity>
+
+    <meta-entity name="bullet">
+        <data>
+            <size value="5" />
+            <aabb minCorner="0.0;0.0" maxCorner="48.0;48.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="bullet.png" />
+        </graphics>
+    </meta-entity> 
+    
+    <meta-entity name="grass-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-one.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-two.png" />
+        </graphics>
+    </meta-entity>
+
+    <meta-entity name="mud-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="mud-one.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="mud-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="mud-two.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="mud-three">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="mud-three.png" />
+        </graphics>
+    </meta-entity>
+
+    <meta-entity name="mud-crack">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="mud-crack.png" />
+        </graphics>
+    </meta-entity>
+
+
+
+    <meta-entity name="grass-mud-top">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-top.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-bottom">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-bottom.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-right.png" />
+        </graphics>
+    </meta-entity>
+
+
+
+    <meta-entity name="grass-mud-top-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-top-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-top-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-top-right.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-bottom-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-bottom-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-bottom-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-bottom-right.png" />
+        </graphics>
+    </meta-entity>
+
+    <meta-entity name="grass-mud-top-left-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-top-left-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-top-right-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-top-right-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-bottom-left-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-bottom-left-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="grass-mud-bottom-right-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-mud-bottom-right-inverted.png" />
+        </graphics>
+    </meta-entity>
+
+
+
+    <meta-entity name="wall-top">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-top.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-bottom">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-bottom.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-right.png" />
+        </graphics>
+    </meta-entity>
+
+
+    <meta-entity name="wall-corner-top-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-top-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-top-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-top-right.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-bottom-left">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-bottom-left.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-bottom-right">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-bottom-right.png" />
+        </graphics>
+    </meta-entity>  
+
+
+
+    <meta-entity name="wall-corner-top-left-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-top-left-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-top-right-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-top-right-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-bottom-left-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-bottom-left-inverted.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wall-corner-bottom-right-inverted">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wall-corner-bottom-right-inverted.png" />
+        </graphics>
+    </meta-entity>    
+
+
+
+    <meta-entity name="bush">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="bush.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="wood-small">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wood-small.png" />
+        </graphics>
+    </meta-entity>  
+    <meta-entity name="wood-big">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="wood-big.png" />
+        </graphics>
+    </meta-entity>  
+    <meta-entity name="rock-small">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="rock-small.png" />
+        </graphics>
+    </meta-entity>
+    <meta-entity name="rock-medium">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="rock-medium.png" />
+        </graphics>
+    </meta-entity>  
+    <meta-entity name="rock-big">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="rock-big.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="shroom-red-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="shroom-red-one.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="shroom-red-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="shroom-red-two.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="shroom-red-three">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="shroom-red-three.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-red-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-red-one.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-red-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-red-two.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-red-three">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-red-three.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-white-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-white-one.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-white-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-white-two.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="flower-white-three">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="flower-white-three.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="grass-prop-one">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-prop-one.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="grass-prop-two">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-prop-two.png" />
+        </graphics>
+    </meta-entity> 
+
+    <meta-entity name="grass-prop-three">
+        <data>
+            <size value="1" />
+            <aabb minCorner="0.0;0.0" maxCorner="16.0;16.0"></aabb>
+        </data>
+        <logic></logic>
+        <graphics>
+            <texture value="grass-prop-three.png" />
+        </graphics>
+    </meta-entity> 
+    
+</meta-entities>

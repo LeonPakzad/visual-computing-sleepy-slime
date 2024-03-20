@@ -1,0 +1,1210 @@
+<map>
+    <height>704</height>
+    <width>704</width>
+    <entities>
+
+        <entity name="player_0_0" meta-entity="player">
+            <data>
+                <position>500;500</position>
+                <size>22;16</size>
+                <type>0</type>
+            </data>
+            <logic/>
+        </entity>
+
+        <entity name="wizard-red_0_0" meta-entity="wizard-red">
+            <data>
+                <position>330;330</position>
+                <size>128;128</size>
+                <type>5</type>
+            </data>
+            <logic/>
+        </entity>
+
+        <entity name="wall-corner-top-left-inverted_0_0" meta-entity="wall-corner-top-left-inverted">
+            <data>
+                <position>0;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_1_0" meta-entity="wall-bottom">
+            <data>
+                <position>64;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_2_0" meta-entity="wall-bottom">
+            <data>
+                <position>128;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_3_0" meta-entity="wall-bottom">
+            <data>
+                <position>192;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_4_0" meta-entity="wall-bottom">
+            <data>
+                <position>256;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_5_0" meta-entity="wall-bottom">
+            <data>
+                <position>320;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_6_0" meta-entity="wall-bottom">
+            <data>
+                <position>384;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_7_0" meta-entity="wall-bottom">
+            <data>
+                <position>448;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_8_0" meta-entity="wall-bottom">
+            <data>
+                <position>512;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-bottom_9_0" meta-entity="wall-bottom">
+            <data>
+                <position>576;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-corner-top-right-inverted_10_0" meta-entity="wall-corner-top-right-inverted">
+            <data>
+                <position>640;0</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_1" meta-entity="wall-right">
+            <data>
+                <position>0;64</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_1" meta-entity="grass-one">
+            <data>
+                <position>64;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_1" meta-entity="grass-one">
+            <data>
+                <position>128;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_1" meta-entity="grass-one">
+            <data>
+                <position>192;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_1" meta-entity="grass-one">
+            <data>
+                <position>256;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_1" meta-entity="grass-one">
+            <data>
+                <position>320;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_1" meta-entity="grass-one">
+            <data>
+                <position>384;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_1" meta-entity="grass-one">
+            <data>
+                <position>448;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_1" meta-entity="grass-one">
+            <data>
+                <position>512;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_1" meta-entity="grass-one">
+            <data>
+                <position>576;64</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_1" meta-entity="wall-left">
+            <data>
+                <position>640;64</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_2" meta-entity="wall-right">
+            <data>
+                <position>0;128</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_2" meta-entity="grass-one">
+            <data>
+                <position>64;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_2" meta-entity="grass-one">
+            <data>
+                <position>128;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_2" meta-entity="grass-one">
+            <data>
+                <position>192;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_2" meta-entity="grass-one">
+            <data>
+                <position>256;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_2" meta-entity="grass-one">
+            <data>
+                <position>320;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_2" meta-entity="grass-one">
+            <data>
+                <position>384;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_2" meta-entity="grass-one">
+            <data>
+                <position>448;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_2" meta-entity="grass-one">
+            <data>
+                <position>512;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_2" meta-entity="grass-one">
+            <data>
+                <position>576;128</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_2" meta-entity="wall-left">
+            <data>
+                <position>640;128</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_3" meta-entity="wall-right">
+            <data>
+                <position>0;192</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_3" meta-entity="grass-one">
+            <data>
+                <position>64;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_3" meta-entity="grass-one">
+            <data>
+                <position>128;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_3" meta-entity="grass-one">
+            <data>
+                <position>192;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_3" meta-entity="grass-one">
+            <data>
+                <position>256;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_3" meta-entity="grass-one">
+            <data>
+                <position>320;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_3" meta-entity="grass-one">
+            <data>
+                <position>384;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_3" meta-entity="grass-one">
+            <data>
+                <position>448;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_3" meta-entity="grass-one">
+            <data>
+                <position>512;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_3" meta-entity="grass-one">
+            <data>
+                <position>576;192</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_3" meta-entity="wall-left">
+            <data>
+                <position>640;192</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_4" meta-entity="wall-right">
+            <data>
+                <position>0;256</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_4" meta-entity="grass-one">
+            <data>
+                <position>64;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_4" meta-entity="grass-one">
+            <data>
+                <position>128;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_4" meta-entity="grass-one">
+            <data>
+                <position>192;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_4" meta-entity="grass-one">
+            <data>
+                <position>256;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_4" meta-entity="grass-one">
+            <data>
+                <position>320;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_4" meta-entity="grass-one">
+            <data>
+                <position>384;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_4" meta-entity="grass-one">
+            <data>
+                <position>448;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_4" meta-entity="grass-one">
+            <data>
+                <position>512;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_4" meta-entity="grass-one">
+            <data>
+                <position>576;256</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_4" meta-entity="wall-left">
+            <data>
+                <position>640;256</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_5" meta-entity="wall-right">
+            <data>
+                <position>0;320</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_5" meta-entity="grass-one">
+            <data>
+                <position>64;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_5" meta-entity="grass-one">
+            <data>
+                <position>128;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_5" meta-entity="grass-one">
+            <data>
+                <position>192;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_5" meta-entity="grass-one">
+            <data>
+                <position>256;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_5" meta-entity="grass-one">
+            <data>
+                <position>320;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_5" meta-entity="grass-one">
+            <data>
+                <position>384;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_5" meta-entity="grass-one">
+            <data>
+                <position>448;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_5" meta-entity="grass-one">
+            <data>
+                <position>512;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_5" meta-entity="grass-one">
+            <data>
+                <position>576;320</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_5" meta-entity="wall-left">
+            <data>
+                <position>640;320</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_6" meta-entity="wall-right">
+            <data>
+                <position>0;384</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_6" meta-entity="grass-one">
+            <data>
+                <position>64;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_6" meta-entity="grass-one">
+            <data>
+                <position>128;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_6" meta-entity="grass-one">
+            <data>
+                <position>192;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_6" meta-entity="grass-one">
+            <data>
+                <position>256;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_6" meta-entity="grass-one">
+            <data>
+                <position>320;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_6" meta-entity="grass-one">
+            <data>
+                <position>384;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_6" meta-entity="grass-one">
+            <data>
+                <position>448;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_6" meta-entity="grass-one">
+            <data>
+                <position>512;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_6" meta-entity="grass-one">
+            <data>
+                <position>576;384</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_6" meta-entity="wall-left">
+            <data>
+                <position>640;384</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_7" meta-entity="wall-right">
+            <data>
+                <position>0;448</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_7" meta-entity="grass-one">
+            <data>
+                <position>64;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_7" meta-entity="grass-one">
+            <data>
+                <position>128;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_7" meta-entity="grass-one">
+            <data>
+                <position>192;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_7" meta-entity="grass-one">
+            <data>
+                <position>256;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_7" meta-entity="grass-one">
+            <data>
+                <position>320;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_7" meta-entity="grass-one">
+            <data>
+                <position>384;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_7" meta-entity="grass-one">
+            <data>
+                <position>448;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_7" meta-entity="grass-one">
+            <data>
+                <position>512;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_7" meta-entity="grass-one">
+            <data>
+                <position>576;448</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_7" meta-entity="wall-left">
+            <data>
+                <position>640;448</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_8" meta-entity="wall-right">
+            <data>
+                <position>0;512</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_8" meta-entity="grass-one">
+            <data>
+                <position>64;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_8" meta-entity="grass-one">
+            <data>
+                <position>128;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_8" meta-entity="grass-one">
+            <data>
+                <position>192;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_8" meta-entity="grass-one">
+            <data>
+                <position>256;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_8" meta-entity="grass-one">
+            <data>
+                <position>320;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_8" meta-entity="grass-one">
+            <data>
+                <position>384;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_8" meta-entity="grass-one">
+            <data>
+                <position>448;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_8" meta-entity="grass-one">
+            <data>
+                <position>512;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_8" meta-entity="grass-one">
+            <data>
+                <position>576;512</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_8" meta-entity="wall-left">
+            <data>
+                <position>640;512</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-right_0_9" meta-entity="wall-right">
+            <data>
+                <position>0;576</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_1_9" meta-entity="grass-one">
+            <data>
+                <position>64;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_2_9" meta-entity="grass-one">
+            <data>
+                <position>128;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_3_9" meta-entity="grass-one">
+            <data>
+                <position>192;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_4_9" meta-entity="grass-one">
+            <data>
+                <position>256;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_5_9" meta-entity="grass-one">
+            <data>
+                <position>320;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_6_9" meta-entity="grass-one">
+            <data>
+                <position>384;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_7_9" meta-entity="grass-one">
+            <data>
+                <position>448;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_8_9" meta-entity="grass-one">
+            <data>
+                <position>512;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-one_9_9" meta-entity="grass-one">
+            <data>
+                <position>576;576</position>
+                <size>64;64</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-left_10_9" meta-entity="wall-left">
+            <data>
+                <position>640;576</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-corner-bottom-left-inverted_0_10" meta-entity="wall-corner-bottom-left-inverted">
+            <data>
+                <position>0;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_1_10" meta-entity="wall-top">
+            <data>
+                <position>64;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_2_10" meta-entity="wall-top">
+            <data>
+                <position>128;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_3_10" meta-entity="wall-top">
+            <data>
+                <position>192;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_4_10" meta-entity="wall-top">
+            <data>
+                <position>256;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_5_10" meta-entity="wall-top">
+            <data>
+                <position>320;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_6_10" meta-entity="wall-top">
+            <data>
+                <position>384;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_7_10" meta-entity="wall-top">
+            <data>
+                <position>448;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_8_10" meta-entity="wall-top">
+            <data>
+                <position>512;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-top_9_10" meta-entity="wall-top">
+            <data>
+                <position>576;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wall-corner-bottom-right-inverted_10_10" meta-entity="wall-corner-bottom-right-inverted">
+            <data>
+                <position>640;640</position>
+                <size>64;64</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+
+        <entity name="rock-small_7_3" meta-entity="rock-small">
+            <data>
+                <position>448;192</position>
+                <size>64;64</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-two_9_3" meta-entity="grass-prop-two">
+            <data>
+                <position>576;192</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="shroom-red-two_7_4" meta-entity="shroom-red-two">
+            <data>
+                <position>448;256</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_2_5" meta-entity="grass-prop-one">
+            <data>
+                <position>128;320</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wood-small_6_5" meta-entity="wood-small">
+            <data>
+                <position>384;320</position>
+                <size>64;64</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_1_6" meta-entity="grass-prop-one">
+            <data>
+                <position>64;384</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_3_6" meta-entity="grass-prop-one">
+            <data>
+                <position>192;384</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_4_6" meta-entity="flower-white-one">
+            <data>
+                <position>256;384</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_5_6" meta-entity="flower-white-one">
+            <data>
+                <position>320;384</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="rock-medium_6_6" meta-entity="rock-medium">
+            <data>
+                <position>384;384</position>
+                <size>64;64</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_2_7" meta-entity="grass-prop-one">
+            <data>
+                <position>128;448</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_3_7" meta-entity="grass-prop-one">
+            <data>
+                <position>192;448</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-three_4_7" meta-entity="flower-white-three">
+            <data>
+                <position>256;448</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-two_5_7" meta-entity="grass-prop-two">
+            <data>
+                <position>320;448</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-two_6_7" meta-entity="flower-white-two">
+            <data>
+                <position>384;448</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-three_2_8" meta-entity="flower-white-three">
+            <data>
+                <position>128;512</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_3_8" meta-entity="flower-white-one">
+            <data>
+                <position>192;512</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_4_8" meta-entity="grass-prop-one">
+            <data>
+                <position>256;512</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_5_8" meta-entity="grass-prop-one">
+            <data>
+                <position>320;512</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_6_8" meta-entity="flower-white-one">
+            <data>
+                <position>384;512</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="bush_7_8" meta-entity="bush">
+            <data>
+                <position>448;512</position>
+                <size>64;64</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_2_9" meta-entity="flower-white-one">
+            <data>
+                <position>128;576</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-two_3_9" meta-entity="flower-white-two">
+            <data>
+                <position>192;576</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="wood-small_4_9" meta-entity="wood-small">
+            <data>
+                <position>256;576</position>
+                <size>64;64</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-two_5_9" meta-entity="flower-white-two">
+            <data>
+                <position>320;576</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="flower-white-one_3_10" meta-entity="flower-white-one">
+            <data>
+                <position>192;640</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="grass-prop-one_7_10" meta-entity="grass-prop-one">
+            <data>
+                <position>448;640</position>
+                <size>64;64</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+    </entities>
+</map>

@@ -35,7 +35,7 @@
 
 !game_release.exe
 !game_debug.exe
-
+!/lib
 /.vs
 /docs
 /pdf

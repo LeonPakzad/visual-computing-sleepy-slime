@@ -12,3 +12,16 @@ Try to hide behind objects, beware that they wont hold out much though
 <p>
 <img src="source/ressources/screenshots/screenshot1.png"/>
 </p>
+
+<hr>
+
+## Art by:
+
+### Menu: 
+Fironell
+<br>
+
+### Pixel-Art:
+slime: Chiecola https://chiecola.itch.io/
+<br>
+tiles and obstacles: PixiVan https://pixivan.itch.io/

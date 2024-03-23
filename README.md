@@ -25,3 +25,8 @@ Fironell
 slime: Chiecola https://chiecola.itch.io/
 <br>
 tiles and obstacles: PixiVan https://pixivan.itch.io/
+
+<hr>
+
+## known bugs
+- fireballs behavior needs improvement
